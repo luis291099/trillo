@@ -24,14 +24,35 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 18%;
-    height: calc(90vh - 7rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .hotel-view {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
     flex: 1;
-    height: calc(90vh - 7rem);
+}
+
+.detail {
+    font-size: 1.4rem;
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: 1px solid var(--color-grey-light-2);
+}
+
+.discription {
+    background-color: #fff;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 1.4rem;
+}
+
+.user-review {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
 }
