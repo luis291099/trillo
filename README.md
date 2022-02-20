@@ -1,6 +1,6 @@
 # Trillo
 
-<img src="img/trillo-mockup.png" alt="exemplo imagem">
+<img src="img/trillo-mockup.jpg" alt="exemplo imagem">
 
 Trillo é uma Landing Page para uma agência de viagens, cujo objetivo é apresentar detalhes sobre hotéis, voos, tours e aluguel de carros. Ela foi desenvolvida com Sass e HTML.
 
