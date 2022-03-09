@@ -534,6 +534,27 @@ body {
   animation: pulsate 1s infinite;
 }
 
+.card {
+  margin-bottom: 1rem;
+}
+.card__header {
+  height: 160px;
+  background-image: url("./../img/car-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (min-width: 37.5em) {
+  .card:not(:nth-child(3n)) {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (max-width: 37.5em) and (min-width: 31.25em) {
+  .card:not(:nth-child(2n)) {
+    margin-right: 1rem;
+  }
+}
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -642,6 +663,29 @@ body {
   align-items: center;
   flex-direction: column;
   flex: 1;
+}
+
+.available-cars {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: wrap;
+}
+.available-cars__item {
+  flex: calc((100% - 2rem)/3) 0 0;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+}
+@media only screen and (max-width: 37.5em) {
+  .available-cars__item {
+    flex: calc((100% - 1rem)/2) 0 0;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .available-cars__item {
+    flex-basis: 100%;
+  }
 }
 
 /*

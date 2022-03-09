@@ -567,3 +567,29 @@
         animation: pulsate 1s infinite;
     }
 }
+
+// CARD ///////////////////////////////////////////////////////////////
+.card {
+
+    margin-bottom: 1rem;
+
+    &__header {
+        height: 160px;
+        background-image: url('./../img/car-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media only screen and (min-width: $bp-small){
+        &:not(:nth-child(3n)) {
+            margin-right: 1rem;
+        }
+    }
+
+    @media only screen and (max-width: $bp-small) and (min-width: $bp-smallest){
+        &:not(:nth-child(2n)) {
+            margin-right: 1rem;
+        }
+    }
+}

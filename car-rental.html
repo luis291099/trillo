@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>trillo &mdash; Your all-in-one booking app</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="./img/logo.png" alt="Trillo logo" class="logo">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">32</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">4</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/user.jpg" alt="Jonas" class="user-nav__user-photo">
+                        <span class="user-nav__username">Jonas</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="/index.html" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="/car-rental.html" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">
+                        &copy; 2022 by Trillo. All right reserved.
+                    </div>
+                </nav>
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/car-1.jpg" alt="Photo 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/car-2.jpg" alt="Photo 2" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/car-3.jpg" alt="Photo 3" class="gallery__photo">
+                        </figure>
+                    </div>
+                    <div class="overview">
+                        <h1 class="overview__heading">Available Cars</h1>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">87</div>
+                        </div>
+                    </div>
+                    <div class="available-cars">
+                        <div class="available-cars__item card">
+                            <header class="card__header"></header>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem suscipit deserunt maxime quos autem corrupti, rerum praesentium asperiores vitae. Tempora fugit provident laboriosam rerum ex vitae ducimus, magnam veritatis.
+                        </div>
+                        <div class="available-cars__item card">
+                            <header class="card__header"></header>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem suscipit deserunt maxime quos autem corrupti, rerum praesentium asperiores vitae. Tempora fugit provident laboriosam rerum ex vitae ducimus, magnam veritatis.
+                        </div>
+                        <div class="available-cars__item card">
+                            <header class="card__header"></header>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem suscipit deserunt maxime quos autem corrupti, rerum praesentium asperiores vitae. Tempora fugit provident laboriosam rerum ex vitae ducimus, magnam veritatis.
+                        </div>
+                        <div class="available-cars__item card">
+                            <header class="card__header"></header>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem suscipit deserunt maxime quos autem corrupti, rerum praesentium asperiores vitae. Tempora fugit provident laboriosam rerum ex vitae ducimus, magnam veritatis.
+                        </div>
+                        <div class="available-cars__item card">
+                            <header class="card__header"></header>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem suscipit deserunt maxime quos autem corrupti, rerum praesentium asperiores vitae. Tempora fugit provident laboriosam rerum ex vitae ducimus, magnam veritatis.
+                        </div>
+                        <div class="available-cars__item card">
+                            <header class="card__header"></header>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem suscipit deserunt maxime quos autem corrupti, rerum praesentium asperiores vitae. Tempora fugit provident laboriosam rerum ex vitae ducimus, magnam veritatis.
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

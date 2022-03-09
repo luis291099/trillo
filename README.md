@@ -8,7 +8,7 @@ Trillo é uma Landing Page para uma agência de viagens, cujo objetivo é aprese
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Página de aluguel de carros
+- [...] Página de aluguel de carros
 - [ ] Página dos tours
 - [ ] Página dos voos
 - [ ] Captions nas imagens do hotel
